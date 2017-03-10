@@ -1,0 +1,44 @@
+.main-contents {
+  @include fullSize;
+  position: relative;
+  .main-background {
+    @include fullSize;
+    background-image: url(bg-mail.jpeg);
+  }
+  .main-function {
+    margin: auto 0;
+    height: 200px;
+    width: 40%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    &__upper {
+      height: 55px;
+      width: 200px;
+      background-color: $base-white;
+    }
+    &__center {
+      margin-top: 10px;
+      height: 55px;
+      width: 100%;
+      min-width: 295px;
+      background-color: $base-white;
+    }
+    &__lower {
+      margin-top: 10px;
+      height: 50px;
+      width: 295px;
+      background-color: $base-white;
+      p {
+        text-align: center;
+        color: $base-gray;
+        font: {
+          size: 30px;
+          weight: 600;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.wrapper {
+  @include fullSize;
+  .header {
+    padding: 20px;
+    height: 30px;
+    width: calc(100% - 40px);
+    background-color: $base-white;
+  }
+  .main {
+    height: calc(100% - 120px);
+    width: 100%;
+    background-color: $base-white;
+  }
+  .footer {
+    padding: 10px;
+    height: 30px;
+    width: calc(100% - 20px);
+    background-color: $base-white;
+  }
+}

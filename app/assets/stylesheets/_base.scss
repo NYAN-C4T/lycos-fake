@@ -1,0 +1,7 @@
+html {
+  @include fullSize;
+  font-family: "Mplus 1p", sans-serif;
+  body {
+    @include fullSize;
+  }
+}
